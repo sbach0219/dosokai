@@ -1,26 +1,2 @@
-html.staticrypt-html { background: #8ed5f4; }
-.staticrypt-content { background: #8ed5f4; color: #142e40; font-family: 'Noto Sans JP',sans-serif; min-height: 100dvh; box-sizing: border-box; margin: 0; position: relative; isolation: isolate; }
-.staticrypt-content:before { content: ''; position: fixed; top: 30px; right: 0; bottom: 30px; left: 45%; background: url('../images/takao-school.jpg') center/cover no-repeat; z-index: -1; }
-.staticrypt-page { width: 45%; padding: 0 5%; min-height: 100dvh; margin: 0; display: flex; align-items: center; justify-content: center; }
-.staticrypt-form { width: 100%; max-width: 360px; background: transparent; box-shadow: none; padding: 40px 0; margin: 0; text-align: left; }
-.staticrypt-instructions { margin: 0; }
-.staticrypt-instructions:before { content: '2027'; display: block; font: 800 clamp(64px,8vw,115px)/1 'Inter',sans-serif; letter-spacing: -.07em; margin-bottom: 10px; }
-.staticrypt-title { font-size: 17px; font-weight: 700; line-height: 1.8; margin: 0 0 25px; }
-.staticrypt-instructions>p:last-child { font-size: 11px; line-height: 2.2; }
-.staticrypt-hr { border-top: 1px solid #67b3d5; margin: 25px 0; }
-.staticrypt-password-container { background: #fff; border: 1px solid #72bbda; margin-bottom: 15px; }
-.staticrypt-form input[type=password],.staticrypt-form input[type=text] { color: #142e40; border-radius: 0; }
-.staticrypt-form .staticrypt-decrypt-button { background: #142e40; border: 0; font-size: 12px; font-weight: 500; padding: 18px; cursor: pointer; }
-.staticrypt-form .staticrypt-decrypt-button:hover,.staticrypt-form .staticrypt-decrypt-button:focus { background: #234a64; }
-.staticrypt-remember { font-size: 10px; line-height: 1.9; margin: 18px 0; color: #294d63; }
-.staticrypt-remember input { accent-color: #142e40; }
-.staticrypt-form input:focus-visible { outline: 2px solid #006b9a; outline-offset: 3px; }
-@media(max-width:700px) {
- .staticrypt-content:before { position: absolute; top: 0; left: 0; right: 0; bottom: auto; height: 230px; background-position: center 43%; }
- .staticrypt-page { width: 100%; padding: 260px 7% 35px; min-height: 100dvh; align-items: flex-start; }
- .staticrypt-form { max-width: 420px; padding: 0; }
- .staticrypt-instructions:before { font-size: 75px; margin-bottom: 10px; }
- .staticrypt-title { font-size: 14px; margin-bottom: 17px; }
- .staticrypt-instructions>p:last-child { font-size: 10px; }
- .staticrypt-hr { margin: 20px 0; }
-}
+html.staticrypt-html{background:#102c3e}.staticrypt-content{background:#102c3e;color:#fff;font-family:'Noto Sans JP',sans-serif;min-height:100dvh;box-sizing:border-box;margin:0;position:relative;isolation:isolate}.staticrypt-content:before{content:'';position:fixed;inset:0;background:linear-gradient(90deg,#102c3ebd,#102c3e22),url('../images/takao-school.jpg') center/cover no-repeat;z-index:-1}.staticrypt-page{width:100%;max-width:1250px;padding:60px 6%;min-height:100dvh;margin:0 auto;display:flex;align-items:center;justify-content:flex-start}.staticrypt-form{width:100%;max-width:420px;background:#102c3ef2;box-shadow:none;padding:38px;margin:0;text-align:left;border-top:3px solid #92dcfa}.staticrypt-instructions{margin:0}.staticrypt-instructions:before{content:'2027.';display:block;font:600 clamp(90px,11vw,150px)/.95 'Barlow Condensed',sans-serif;color:#92dcfa;letter-spacing:-.035em;margin-bottom:20px}.staticrypt-title{font-size:16px;font-weight:600;line-height:1.9;margin:0 0 22px}.staticrypt-instructions>p:last-child{font-size:10px;line-height:2.2;color:#b8ccd8}.staticrypt-hr{border-top:1px solid #527a9166;margin:25px 0}.staticrypt-password-container{background:#fff;border:1px solid #9bc6d9;margin-bottom:15px}.staticrypt-form input[type=password],.staticrypt-form input[type=text]{color:#102c3e;border-radius:0}.staticrypt-form .staticrypt-decrypt-button{background:#92dcfa;color:#102c3e;border:0;font-size:12px;font-weight:500;padding:18px;cursor:pointer}.staticrypt-form .staticrypt-decrypt-button:hover,.staticrypt-form .staticrypt-decrypt-button:focus{background:#b3e7fc}.staticrypt-remember{font-size:9px;line-height:1.9;margin:18px 0;color:#b8ccd8}.staticrypt-remember input{accent-color:#92dcfa}.staticrypt-form input:focus-visible{outline:2px solid #92dcfa;outline-offset:3px}
+@media(max-width:700px){.staticrypt-content:before{background:linear-gradient(0deg,#102c3e77,#102c3e22),url('../images/takao-school.jpg') 48% center/cover no-repeat}.staticrypt-page{padding:145px 6% 45px;min-height:100dvh;align-items:center;justify-content:center}.staticrypt-form{padding:30px 25px;max-width:400px}.staticrypt-instructions:before{font-size:105px;margin-bottom:20px}.staticrypt-title{font-size:13px;margin-bottom:15px}.staticrypt-instructions>p:last-child{font-size:10px}.staticrypt-hr{margin:20px 0}.staticrypt-remember{font-size:9px}}
